@@ -21,6 +21,7 @@ function App() {
         <Loading />
       ) : (
         <div id="content">
+          <div className='wipbanner'><i>Work in Progress</i></div>
           <Parallax pages={4.2}>
           <ParallaxLayer sticky={{start: 0.4, end: 2.4}}>
             <img className='balloon' src="/balloon.png" alt="" />

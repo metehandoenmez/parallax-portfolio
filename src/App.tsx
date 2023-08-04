@@ -32,7 +32,7 @@ function App() {
             <img className='balloon' src="/cactus.png" alt="" />
           </ParallaxLayer>
           
-          <ParallaxLayer offset={0} speed={0.5} factor={8} style={{
+          <ParallaxLayer offset={0} speed={0.5} factor={7} style={{
             // backgroundImage: `url(${bg})`,
             // backgroundSize: `cover`
             background: "#eee7e1",
@@ -54,7 +54,7 @@ function App() {
           <i className='socialsHeader'>SOCIALS</i>
           </ParallaxLayer>
   
-          <ParallaxLayer offset={3.5} speed={2}>
+          <ParallaxLayer offset={3.7} speed={2}>
           <Footer></Footer>
           </ParallaxLayer>
         </Parallax>

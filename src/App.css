@@ -170,7 +170,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  user-drag: none;
+  /* user-drag: none; */
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -183,7 +183,7 @@ body {
   color: white;
   position: relative;
   bottom: 100px;
-  user-drag: none;
+  /* user-drag: none; */
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -193,7 +193,7 @@ body {
 .socialBottom {
   text-decoration: none;
   color: white;
-  user-drag: none;
+  /* user-drag: none; */
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -251,12 +251,13 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 10%;
-  
+    height: 80%;
     padding-bottom: 20%;
     margin-bottom: 100px;
     gap: 20px;
     align-items: center;
-    padding-top: 20% !important;
+    padding-top: 0% !important;
+    margin: auto;
   }
 
   .img-cont {

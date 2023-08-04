@@ -9,7 +9,7 @@ import NavButton from './assets/Components/NavButton'
 function App() {
   const pageRef = useRef<any>(null)
 
-  const bg = '/bg2.png'
+  // const bg = '/bg2.png'
 
   const [isLoading, setIsLoading] = useState(true);
 

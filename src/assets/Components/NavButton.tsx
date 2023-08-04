@@ -1,4 +1,4 @@
-export default function NavButton({pageRef}) {
+export default function NavButton({pageRef}:any) {
   return (
     <div className='navbutton'>
       <div className='navbutton1'>
